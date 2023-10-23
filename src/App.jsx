@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from "./components/Navbar/Navbar"
-import Titulo from './components/Titulo/Titulo'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <Titulo mensaje={greeting}/>
+      <ItemListContainer mensaje={greeting}/>
     </>
   )
 }

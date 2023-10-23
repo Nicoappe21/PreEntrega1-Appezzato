@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Titulo = ({mensaje}) => {
+const ItemListContainer = ({mensaje}) => {
 
 
     return(
@@ -12,4 +12,4 @@ const Titulo = ({mensaje}) => {
     )
 }
 
-export default Titulo
+export default ItemListContainer
